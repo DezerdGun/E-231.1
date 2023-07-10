@@ -1,1 +1,5 @@
-print("hello")
+file = open("blabla.txt", "w")
+file.write("This is blabla taxi")
+file.close()
+file = open('blabl.txt', "r")
+print(file.read())
